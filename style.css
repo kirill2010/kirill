@@ -1,0 +1,206 @@
+table, th, td{
+  border:2px solid red;
+  border-collapse:collapse
+}
+
+.btn-red{
+  color: oil;
+  border: 1px solid;
+  padding: 5px;
+  background: red
+
+}
+.red{
+color:aqua;
+background:green
+}
+
+
+
+
+.myButton {
+	box-shadow: 0px 1px 0px 0px #00ff11;
+	background:linear-gradient(to bottom, #33bdef 5%, #d10202 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #d10202 5%, #33bdef 100%);
+	background-color:#d10202;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+body{
+background:yellow 
+}
+div.scrollmenu a {
+  display: inline-block;
+  color: #d10202(140, 0, 255);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.navbar {
+  color:white;
+  overflow: hidden;
+  background-color: black;
+  position:sticky;
+ /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+ position: -webkit-sticky;
+ margin-bottom:40px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+}
+
+.navbar a.uncnive {
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: blue;
+  color: yellow;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */}
+  .header{
+  color: rgb(255, 0, 0);
+ background-image:url("img/OIP.jpg");
+ padding:30px;
+ text-align:center
+  }
+  .header h1{
+font-size:50px;
+
+  }
+  
+  .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+ul.osx-dock li a {
+ 
+
+  display: block;
+  height: 50px;
+  padding: 0 1px;
+  margin: 0;
+  -webkit-transition: 0.15s linear;
+  -webkit-transition-property: -webkit-transform margin;
+  -webkit-box-reflect: below 2px; -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.45, transparent), to(rgba(255, 255, 255, 0.25)));
+}
+
+ul.osx-dock li a img {
+  width: 48px;
+
+}
+
+ul.osx-dock li:hover {
+  margin-left: 9px; margin-right: 9px;
+  z-index: 200;
+}
+
+ul.osx-dock li:hover a {
+  -webkit-transform-origin: center bottom;
+  -webkit-transform: scale(1.5);
+}
+
+ul.osx-dock li.nearby {
+  margin-left: 6px; margin-right: 6px;
+  z-index: 100;
+}
+
+ul.osx-dock li.nearby a {
+  -webkit-transform-origin: center bottom;
+  -webkit-transform: scale(1.25);
+}
+
+ul.osx-dock li span {
+ background: rgba(0,0,0,0.75);
+ position: absolute;
+ bottom: 80px;
+ margin: 0 auto;
+ display: none;
+ width: auto;
+ font-size: 11px;
+ font-weight: bold;
+ padding: 3px 6px;
+ -webkit-border-radius: 6px;
+ color: #fff;
+}
+ ul.osx-dock li:hover span {
+ display: block;
+}
+
+
